@@ -1,0 +1,60 @@
+{
+  "config": {
+    "bg_path": "res/en_bg.png",
+    "font": {
+      "100": "res/fonts/StyreneAWeb-Thin.ttf",
+      "300": "res/fonts/StyreneAWeb-Light.ttf",
+      "400": "res/fonts/StyreneAWeb-Regular.ttf",
+      "500": "res/fonts/StyreneAWeb-Medium.ttf",
+      "700": "res/fonts/StyreneAWeb-Bold.ttf",
+      "900": "res/fonts/StyreneAWeb-Black.ttf"
+    }
+  },
+  "certificate_title": {
+    "x": 100,
+    "y": 1100,
+    "text_size": 157,
+    "weight": 700,
+    "text_color": "#2D309A",
+    "text": "Certificate"
+  },
+  "person_name": {
+    "x": 100,
+    "y": 1300,
+    "text_size": 90,
+    "weight": 700,
+    "text_color": "#2D309A"
+  },
+  "organization_name_title": {
+    "x": 108,
+    "y": 2325,
+    "text_size": 38,
+    "weight": 300,
+    "text_color": "#2D309A",
+    "text": "Organization:",
+    "dependence": "organization_name"
+  },
+  "organization_name": {
+    "x": 519,
+    "y": 2325,
+    "text_size": 42,
+    "weight": 700,
+    "text_color": "#2D309A"
+  },
+  "certificate_number_title": {
+    "x": 108,
+    "y": 2385,
+    "text_size": 36,
+    "weight": 300,
+    "text_color": "#2D309A",
+    "text": "Certificate number:",
+    "dependence": "certificate_number"
+  },
+  "certificate_number": {
+    "x": 519,
+    "y": 2385,
+    "text_size": 36,
+    "weight": 700,
+    "text_color": "#2D309A"
+  }
+}
