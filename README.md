@@ -1,7 +1,7 @@
 # Генерация и выдача сертификатов
 The user requests a certificate using a __JWT__ token. The token is hashed to __mb5__ and appended to the filename. If a file is found by this hash, the found file is returned. If not, a new one is generated.
 
-Demo: [demo certificate](http://fromsi.net:5001/en/pdf/false/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJzb25fbmFtZSI6ItCS0LXQsdC10YAt0J_RhNC70Y_Rg9C80LXRgCDQktC70LDQtNC40YHQu9Cw0LIiLCJvcmdhbml6YXRpb25fbmFtZSI6IkdpdEh1YiIsImNlcnRpZmljYXRlX251bWJlciI6IkdIMDAwMSJ9.oS4mddLm0nPwFQAeZ1D69M4Y-cWhN876DKtoliKnbLY)
+Demo: [demo certificate](https://certificate-generate.fromsi.net/en/pdf/false/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJzb25fbmFtZSI6ItCS0LXQsdC10YAt0J_RhNC70Y_Rg9C80LXRgCDQktC70LDQtNC40YHQu9Cw0LIiLCJvcmdhbml6YXRpb25fbmFtZSI6IkdpdEh1YiIsImNlcnRpZmljYXRlX251bWJlciI6IkdIMDAwMSJ9.oS4mddLm0nPwFQAeZ1D69M4Y-cWhN876DKtoliKnbLY)
 
 ## Установка
 Installation will be using __docker__.
